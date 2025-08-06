@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KEMC LTD</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo-area">
+      <img src="KEMC1.jpg" alt="Logo" />
+      <span>KIGALI ELECTROMECHANICAL COMPANY LTD</span>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Service</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>FIXING ALL YOUR PLUMBING PROBLEMS IS OUR #1 PRIORITY</h1>
+      <p>Professional and reliable plumbing services for homes and businesses. Book a visit or call us today.</p>
+      <button class="btn" onclick="openPopup()">Request A Free Call</button>
+    </div>
+    <img src="KEMC.png" alt="Plumber">
+  </section>
+
+  <section class="section">
+    <h2>Services We Are Offering</h2>
+    <div class="services">
+      <div class="card">
+        <img src="leak.jpg" alt="Faucet Repair">
+        <h3>Faucet & Leak Repairs</h3>
+        <p>We fix all leaks and faucet issues with precision and care.</p>
+      </div>
+      <div class="card">
+        <img src="remodeling.webp" alt="Remodeling">
+        <h3>Remodeling Service</h3>
+        <p>Modern and stylish remodeling services for your bathroom and kitchen.</p>
+      </div>
+      <div class="card">
+        <img src="drain.jpeg" alt="Drain Cleaning">
+        <h3>Drain Cleaning & Repairs</h3>
+        <p>We keep your drains clean and fully functional 24/7.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="overlay" id="overlay" onclick="closePopup()"></div>
+  <div class="popup" id="popup">
+    <h2>Call Us Now</h2>
+    <p><strong>+250 788 302 344</strong></p>
+    <button onclick="copyNumber()">📋 Copy Number</button><br/>
+    <button onclick="closePopup()">Close</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 KEMC LTD. All rights reserved.</p>
+    <p>Call us: +250 788 302 344 | Email: info@kemc.rw</p>
+  </footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
